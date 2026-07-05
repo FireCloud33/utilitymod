@@ -1,0 +1,28 @@
+utilitymod/
+├── build.gradle
+├── settings.gradle
+├── gradle.properties
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── utilitymod/
+│       │           ├── UtilityMod.java
+│       │           ├── UtilityModClient.java
+│       │           ├── gui/
+│       │           │   └── ModuleScreen.java
+│       │           ├── module/
+│       │           │   ├── Module.java
+│       │           │   ├── ModuleManager.java
+│       │           │   └── impl/
+│       │           │       ├── AutoCrystalModule.java
+│       │           │       ├── HUDModule.java
+│       │           │       ├── LegitAutoTotemModule.java
+│       │           │       ├── SafeAnchorModule.java
+│       │           │       └── VisualOverlayModule.java
+│       │           └── util/
+│       │               ├── InventoryHelper.java
+│       │               └── TimerHelper.java
+│       └── resources/
+│           ├── fabric.mod.json
+│           └── utilitymod.mixins.json

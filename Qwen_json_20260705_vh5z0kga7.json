@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "utilitymod",
+  "version": "${version}",
+  "name": "Utility Mod",
+  "description": "Client-side utility mod with modular features and a GUI.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.utilitymod.UtilityMod"],
+    "client": ["com.utilitymod.UtilityModClient"]
+  },
+  "mixins": ["utilitymod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
